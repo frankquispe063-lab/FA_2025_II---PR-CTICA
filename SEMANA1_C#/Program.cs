@@ -17,17 +17,31 @@ namespace SEMANA1_C_
             carrera = (Console.ReadLine());
             //MENSAJE DE BIENVENIDAD
             Console.WriteLine($"\n{nombre}, BIENVENIDOA FUND.ALGORIT{carrera}");
+            Console.ReadKey();
         }
-        static void ejer1() 
+        static void ejer2() 
         {
-        }
-        static void ejer2()
-        {
+            Console.WriteLine("INGRESA NUMERO X: ");
+            int X = int.Parse(Console.ReadLine());
+
+            double resu = X / Y;
+
+            Console.WriteLine("INGRESA NUMERO Y: ");
+            int Y = int.Parse(Console.ReadLine());
+            Console.WriteLine("SUMA: " + (X + Y));
+            Console.WriteLine("RESTA: " + (X - Y));
+            Console.WriteLine("MULTIPLICACIÓN: " + (X * Y));
+            Console.WriteLine("DIVISIÓN: " + resu);
+
+
         }
         static void ejer3()
         {
         }
         static void ejer4()
+        {
+        }
+        static void ejer5()
         {
         }
     }
