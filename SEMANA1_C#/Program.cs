@@ -61,7 +61,7 @@ namespace SEMANA1_C_
             double deci = double.Parse(num);
 
             Console.WriteLine("Resto: " + (entero % 2));
-            Console.WriteLine("División: "+ (deci))
+            Console.WriteLine("División: " + (deci / 3));
 
         }
     }
