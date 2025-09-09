@@ -24,7 +24,7 @@ namespace SEMANA1_C_
             Console.WriteLine("INGRESA NUMERO X: ");
             int X = int.Parse(Console.ReadLine());
 
-            double resu = X / Y;
+            double resu = (double)X / (double)Y;
 
             Console.WriteLine("INGRESA NUMERO Y: ");
             int Y = int.Parse(Console.ReadLine());
@@ -32,7 +32,6 @@ namespace SEMANA1_C_
             Console.WriteLine("RESTA: " + (X - Y));
             Console.WriteLine("MULTIPLICACIÓN: " + (X * Y));
             Console.WriteLine("DIVISIÓN: " + resu);
-
 
         }
         static void ejer3()
