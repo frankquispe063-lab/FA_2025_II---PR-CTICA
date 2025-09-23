@@ -24,7 +24,34 @@ def ejerc2():
         print ("ISOCELES")
     else:
         print ("ESCALENO")
- 
 
-ejerc2()
+def ejerc3():
+    n = int(input("ingrese un número: "))
+    suma = 0
+    for i in range(1, n+1):
+        print(i)
+ 
+        if i % 2 == 0:
+            suma +=i
+
+        print ("\nSuma de pares: ", suma)
+
+def ejerc4():
+    cant = int(input("Ingrese la cantidad de números: "))
+    ceros = pares = impares = 0
+    for i in range(1, cant+1): 
+        num= int(input(f"Ingrese el número {i}: "))
+
+        if num == 0:
+            ceros+=1 # CEROS ++
+        elif num % 2 == 0:
+            pares+=1 # PARES ++
+        else:
+            impares +=1 # IMPAR ++
+
+            print("\n# ceros: ", ceros)
+            print("# pares: ", pares)
+            print("# impares: ", impares)
+
+ejerc4()
 
