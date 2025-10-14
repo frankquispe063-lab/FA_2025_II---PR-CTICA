@@ -1,19 +1,19 @@
 def suma(a,b): print("\nLa suma es: ", a+b)
 def resta(a,b): print("\nLa suma es: ", a-b)
-def multi(a,b): print("\nLa Multiplicaión es: ", a*b)
+def multi(a,b): print("\nLa Multiplicaiï¿½n es: ", a*b)
 def divi(a,b): 
-    if b!= 0 : print("\nLa División es: ", a/b)
+    if b!= 0 : print("\nLa Divisiï¿½n es: ", a/b)
     else: print ("\nError. No se puede dividir por cero")
 
 def operaciones():
     while True:
-        print("Menú de operaciones")
+        print("Menï¿½ de operaciones")
         print("1. Suma")
         print("2. Resta")
-        print("3. Multiplicación")
-        print("4. División")
+        print("3. Multiplicaciï¿½n")
+        print("4. Divisiï¿½n")
 
-        opc = int (input("\nIngrese una opción: "))
+        opc = int (input("\nIngrese una opciï¿½n: "))
 
         a = int(input("Ingrese el primer numero: "))
         b = int(input("Ingrese el segundo numero: "))
@@ -23,9 +23,9 @@ def operaciones():
             elif 2: resta(a,b)
             elif 3: multi(a,b)
             elif 4: divi(a,b)
-            else : print ("Opcion no válida")
+            else : print ("Opcion no vï¿½lida")
 
-        conti = input("¿Desea continuar? presione (y): ")
+        conti = input("ï¿½Desea continuar? presione (y): ")
 
         if conti != "y":
             print ("\n Programa finalizado!")
